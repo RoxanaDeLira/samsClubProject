@@ -1,14 +1,12 @@
 import { Selector, t } from 'testcafe';
 
-class LoginPage{
+class loginAndRegisterPage{
     constructor(){
- 
-        this.usernameInputfield = Selector ('#user-name')
-        this.passwordInputfield = Selector ('#password')
-        this.loginButton = Selector ('#login-button')
-        this.loginContainerPage = Selector ('#login_button_container')
-        this.errorMessage = Selector ('h3[data-test=error]')
+    
+        this.dismissDialog = Selector ('.smx-dialog-close')
+        this.registerLink = Selector ('a[href="/registro"]')
+        this.entendidoButton = Selector('.full-btn')
 
     }
 }
-export default new LoginPage();
+export default new loginAndRegisterPage();
