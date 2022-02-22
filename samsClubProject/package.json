@@ -1,0 +1,14 @@
+{
+  "name": "samsclubproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome ./page-model/tests"
+  },
+  "author": "rdelira",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.18.4"
+  }
+}
