@@ -3,7 +3,7 @@ import loginAndRegisterPage from '../pages/loginPage'
 import mainPage from '../pages/mainPage';
 import mainPageProduct from '../pages/mainPage'
 
-fixture('Add and remove products')
+fixture('Add and remove products to the cart')
     .page `https://www.sams.com.mx/`;
 
 test('Add products to the cart', async t => {
