@@ -9,6 +9,10 @@ export const CREDENTIALS = {
         CONFIRMEMAIL: process.env.CONFIRMEMAIL,
         PASSWORD: process.env.PASSWORD,
         PHONENUMBER: process.env.PHONENUMBER
-    }
+    },
 
+    INVALID_USER: {
+        WRONGEMAIL: process.env.WRONGEMAIL,
+        WRONGPASSWORD: process.env.WRONGPASSWORD
+    }
 }
